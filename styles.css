@@ -1,22 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
 body {
-    background-color: cornflowerblue;
-    font-family: sans-serif;   
+    background-color: darkslategray;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    text-align: center;
+    color: crimson;
 }
 
 h1 {
-    color: crimson;
+    
     font-size: 60px;
 }
 
 p {
-    color: darkblue;
-    font-size: 150px;
-    text-align: center;
+ 
+    font-size: 150px;    
     border: solid 4px darkgray;
 }
 
 span {
     font-size: 100px;
-    color: darkgray;
 }
-
