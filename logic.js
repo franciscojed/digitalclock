@@ -37,7 +37,9 @@ function giveMeTheTime() {
 
     document.getElementById("nowTime").innerHTML= now;
 
-    setTimeout(giveMeTheTime, 1000);
+    //setTimeout(giveMeTheTime, 1000);  CON ESTO TAMBIEN FUNCIONA :)
+    
+    setInterval(giveMeTheTime, 1000);
 
 
 }
